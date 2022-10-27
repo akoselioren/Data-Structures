@@ -27,7 +27,7 @@ Ekleme işlemi :Push fonksiyonuyla yapılır.
 Çıkartma işlemi :Pop fonksiyonuyla yapılır.
 En üstteki düğümü tutan değişkene top adı verilir.(bağlı listelerdeki Head gibi)
 Top'ı gösteren düğümün next'i bir altındaki düğümü gösterir.
-Stack yapısında düğümlerin boyutuda kontrol edilir yani düğüm sayısını kontrol ederek yapının dolu yada boş olma durumlarını değerlendirebilmek için fonksiyon yazılır.
+Düğümlerin boyutuda kontrol edilir yani düğüm sayısını kontrol ederek yapının dolu yada boş olma durumlarını değerlendirebilmek için fonksiyon yazılır.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -35,10 +35,11 @@ Stack yapısında düğümlerin boyutuda kontrol edilir yani düğüm sayısın�
 FIFO (First In First Out)
 Mantığı kuyruğa ilk giren ilk çıkar, son giren düğüm son çıkar şeklindedir.
 Örneğin ATM kuyruğu gibi düşünebiliriz kuyruğa ilk girip işlem yapan kişi ilk çıkar son gelen kişide en son çıkan kişi'dir.
-Kuyruğun başındaki Düğüm'e Front denir.
-Kuyruğun sonundaki Düğüm'e Rear denir.
+Kuyruğun başındaki Düğüm'e Front denir. (bağlı listelerdeki Head gibi)
+Kuyruğun sonundaki Düğüm'e Rear denir.  (bağlı listelerdeki Tail gibi)
 Kuyruğa gelecek(Ekleme işlemine) olan Düğüm'e Enqueue denir.
 Kuyrukdan ayrılacak(Silme işlemine) olan Düğüm'e Dequeue denir.
 Kuyruğun sonundaki düğüm yani Rear'ın göstericisi her zaman null'u gösterir.
+Düğümlerin boyutuda kontrol edilir yani düğüm sayısını kontrol ederek yapının dolu yada boş olma durumlarını değerlendirebilmek için fonksiyon yazılır.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
