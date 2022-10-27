@@ -32,6 +32,7 @@ Düğümlerin boyutuda kontrol edilir yani düğüm sayısını kontrol ederek y
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -Queue (Kuyruk) yapısı
+
 FIFO (First In First Out)
 Mantığı kuyruğa ilk giren ilk çıkar, son giren düğüm son çıkar şeklindedir.
 Örneğin ATM kuyruğu gibi düşünebiliriz kuyruğa ilk girip işlem yapan kişi ilk çıkar son gelen kişide en son çıkan kişi'dir.
