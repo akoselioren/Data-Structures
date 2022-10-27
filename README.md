@@ -31,5 +31,14 @@ Stack yapısında düğümlerin boyutuda kontrol edilir yani düğüm sayısın�
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--Queue yapısı
+-Queue (Kuyruk) yapısı
+FIFO (First In First Out)
+Mantığı kuyruğa ilk giren ilk çıkar, son giren düğüm son çıkar şeklindedir.
+Örneğin ATM kuyruğu gibi düşünebiliriz kuyruğa ilk girip işlem yapan kişi ilk çıkar son gelen kişide en son çıkan kişi'dir.
+Kuyruğun başındaki Düğüm'e Front denir.
+Kuyruğun sonundaki Düğüm'e Rear denir.
+Kuyruğa gelecek(Ekleme işlemine) olan Düğüm'e Enqueue denir.
+Kuyrukdan ayrılacak(Silme işlemine) olan Düğüm'e Dequeue denir.
+Kuyruğun sonundaki düğüm yani Rear'ın göstericisi her zaman null'u gösterir.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
