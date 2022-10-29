@@ -3,6 +3,8 @@ Veri Yapıları ile ilgili yaptığım kodlama örnekleri
 
 Almış olduğum Veri yapıları kursu ile yapmış olduğum uygulamalar.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -Linked List(Tek Yönlü Bağlı Listeler)
 
 Java dilinde Linked List'de Tek Yönlü Doğrusal Bağlı Listeler,Çift Yönlü Doğrusal Bağlı Listeler,Tek Yönlü Dairesel Bağlı Listeler ve Çift Yönlü Dairesel Bağlı Listeler üzerinde Başa(Head) ekleme, Araya ekleme, Sona(Tail) ekleme, Baştan(Head) silme, Aradan silme, Sondan(Tail) silme işlemlerini basit bir şekilde Console ekranında yapabilen küçük program örnekleridir.
@@ -42,5 +44,17 @@ Kuyruğa gelecek(Ekleme işlemine) olan Düğüm'e Enqueue denir.
 Kuyrukdan ayrılacak(Silme işlemine) olan Düğüm'e Dequeue denir.
 Kuyruğun sonundaki düğüm yani Rear'ın göstericisi her zaman null'u gösterir.
 Düğümlerin boyutuda kontrol edilir yani düğüm sayısını kontrol ederek yapının dolu yada boş olma durumlarını değerlendirebilmek için fonksiyon yazılır.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Palindrom Uygulaması
+Palindrom :Palindrom, tersten okunuşu da aynı olan cümle, sözcük ve sayılara denilmektedir.
+
+Stack Yapısı + Queue Yapısı ile uygulama
+
+İki yapıda'da düğümler oluşturarak bu düğümlere kullanıcının girmiş olduğu datayı char tipinde rakam rakam yada harf harf her düğüme bir tane olacak şekilde atıyarak karşılaştırma işlemini yapıyoruz.
+
+Stack yapısında son giren ve aynı zamanda ilk çıkan Char tipindeki harf yada sayı ile Queue yaısında kuyruğa ilk giren ve aynı zamanda ilk çıkan harf yada sayı karşılaştırılarak o datanın bir palindrom olup olmadığını sorguluyoruz, sonucu console'da ekrana yazdırıyoruz.
+
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
