@@ -1,11 +1,11 @@
 # Data-Structures-Samples
 Veri Yapıları ile ilgili yaptığım kodlama örnekleri
 
-Almış olduğum Veri yapıları kursu ile yapmış olduğum uygulamalar.
+Veri yapıları ile yapmış olduğum uygulamalar.
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
--Linked List(Tek Yönlü Bağlı Listeler)
+-Linked List(Bağlı Listeler)
 
 Java dilinde Linked List'de Tek Yönlü Doğrusal Bağlı Listeler,Çift Yönlü Doğrusal Bağlı Listeler,Tek Yönlü Dairesel Bağlı Listeler ve Çift Yönlü Dairesel Bağlı Listeler üzerinde Başa(Head) ekleme, Araya ekleme, Sona(Tail) ekleme, Baştan(Head) silme, Aradan silme, Sondan(Tail) silme işlemlerini basit bir şekilde Console ekranında yapabilen küçük program örnekleridir.
 Baştaki düğüme :head denir.
@@ -58,3 +58,45 @@ Stack yapısında son giren ve aynı zamanda ilk çıkan Char tipindeki harf yad
 
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Ağaç (Tree) Veri Yapısı
+
+İlk oluşturulan düğüme kök düğüm(root) denir.
+Kendisinden türeyen düğüm yoksa o düğüme yaprak düğüm denir.
+Kök düğümden türeyen bir düğümden türeyen başka bir düğüm varsa o düğüm ebeveyn düğümdür.
+Köklerde derinlik yada yükseklik kavramı vardır, düğümün kök düğüme olan uzaklığına denir, kök düğümden itibaren kendiside dahil olmak üzere kaç düğüm varsa o düğümün derinliği o sayıdır.
+Düğümlerin kuralına göre düğümün'ün solundaki veri düğümden küçük sağındaki veri düğümden büyük olmak zorundadır, bu kural her düğüm için ayrı uygulanır.
+
+Kök(Root): Ağacın en üstteki düğümü.
+
+Ebeveyn(Parent): Bir çocuğu veya çocukları olan bir düğüm.
+
+Çocuk(Child): Başka bir düğümden (üst düğüm) genişletilmiş bir düğüm.
+
+Yaprak(Leaf): Çocuğu olmayan bir düğüm.
+
+BTree (İkili arama ağacı)
+
+Bu yapılar İkili arama ağaçlarını belirli bir düzene sokarak üzerinde işlem yapmamıza ve aranan veriyi rahat bulmamızı sağlar. Yani kısaca özetlemek gerekirse ağaç üzerinde gezinmemizi sağlar
+
+Bir ağacın üzerinde gezmenin yöntemleri her birinin izledikleri belirli bir sıra vardır:
+
+preOrder(önce kök) için:  sol alt ağaçtan köke , ardından sağ alt ağaca geçersiniz. (Sol, Kök, Sağ)
+
+İnOrder(ortada Kök) için: kökten sol alt ağaca , ardından sağ alt ağaca geçersiniz. (Kök, Sol, Sağ)
+
+PostOrder(sonda kök) için: sol alt ağaçtan sağ alt ağaca ve ardından köke geçersiniz. (Sol, Sağ, Kök)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
