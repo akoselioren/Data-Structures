@@ -60,7 +60,7 @@ Stack yapısında son giren ve aynı zamanda ilk çıkan Char tipindeki harf yad
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Ağaç (Tree) Veri Yapısı
+# -Ağaç (Tree) Veri Yapısı
 
 İlk oluşturulan düğüme kök düğüm(root) denir.
 Kendisinden türeyen düğüm yoksa o düğüme yaprak düğüm denir.
@@ -90,7 +90,7 @@ PostOrder(sonda kök) için: sol alt ağaçtan sağ alt ağaca ve ardından kök
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Hash Table Yapısı
+# -Hash Table Yapısı
 
 Hash Table yapısı ilk olarak key ve o keylerin tuttuğu verilerden oluşur.
 
@@ -103,7 +103,7 @@ Farkı olarak burda her bağlı listenin bir keyi vardır diziye eklenecek her y
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Sıralama Algoritmaları
+# -Sıralama Algoritmaları
 
 Yaklaşık 30'dan fazla sıralama algoritması bulunmaktadır.
 Sıralama algoritmaları'nın sayısı çoktur, fakat biz en çok bilinenler arasında 3 tanesini buraya ekleyeceğiz.
