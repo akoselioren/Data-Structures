@@ -158,6 +158,8 @@ Sıralanacak dizinin hepsinin algoritmanın girdisi olmasına gerek yoktur. Dizi
 2 3 4 8 9 6*
 2 3 4 6 8 9 --- > Sıralanmış dizimiz
 
+                                                -------------------------------------------------------------------
+
 ### Selection Sort
 
 Seçmeli Sıralama, bilgisayar bilimlerinde kullanılan bir sıralama algoritmasıdır. Karmaşıklığı olduğu için büyük listeler üzerinde kullanıldığında verim sağlamaz ve genel olarak benzeri olan eklemeli sıralamadan daha başarısızdır. Seçmeli sıralama yalın olduğu ve bazı durumlarda daha karmaşık olan algoritmalardan daha iyi sonuç verdiği için tercih edilebilir.
