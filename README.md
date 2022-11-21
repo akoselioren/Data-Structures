@@ -112,8 +112,8 @@ Sıralama algoritması, bilgisayar bilimlerinde ya da matematikte kullanılan, v
 
 ## Bubble Sort - Insertion Sort - Selection Sort
 
-                                                -------------------------------------------------------------------
-
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                
 ### Bubble Sort(Kabarcık Sıralaması)
 
 Sıralanacak dizinin üzerinde sürekli ilerlerken her defasında iki öğenin birbiriyle karşılaştırılıp, karşılaştırılan öğelerin yanlış sırada olmaları durumunda yerlerinin değiştirilmesi mantığına dayanır.
@@ -133,7 +133,7 @@ Birinci Geçiş:
 ( 1 2 4 5 8 ) --> ( 1 2 4 5 8 )
 ( 1 2 4 5 8 ) --> ( 1 2 4 5 8 )
 
-                                                -------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Insertion Sort
 
@@ -158,7 +158,7 @@ Sıralanacak dizinin hepsinin algoritmanın girdisi olmasına gerek yoktur. Dizi
 2 3 4 8 9 6*
 2 3 4 6 8 9 --- > Sıralanmış dizimiz
 
-                                                -------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Selection Sort
 
